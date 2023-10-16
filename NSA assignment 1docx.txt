@@ -1,5 +1,6 @@
 SCT212-0105/2022
-BCT 2204 – NETWORK SYSTEMS & ADMINISTRATION
+BCT 2204 â€“ NETWORK SYSTEMS & ADMINISTRATION
+
 Differences btw the 7-layer OSI reference and the TCP/IP model
 The 7-layer OSI model and the TCP/IP model are two ways of describing how data is transmitted over a network. Some of the differences in this two are:
 - The OSI model ahs 7 layers while the TCO/IP has 4 layers.
@@ -11,4 +12,4 @@ The 7-layer OSI model and the TCP/IP model are two ways of describing how data i
 - The OSI model is more rigid and distinct than the TCP/IP model, which is more flexible and practical
 - The OSI model has more layers and protocols than the TCP/IP model, which simplifies the network access and interface functions into a single layer and protocol suite.
 - The OSI model supports both connection-oriented and connectionless services, while the TCP/IP model only guarantees delivery of packets in the transport layer using TCP.
-- In the OSI model, each layer has a specific function, while TCP/IP’s layer can ofter overlap in functionality
+- In the OSI model, each layer has a specific function, while TCP/IPâ€™s layer can ofter overlap in functionality
