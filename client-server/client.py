@@ -11,16 +11,26 @@ Mark Victor Kithinji - SCT212-0105/2022
 
 '''
 import socket
+# In Python, a socket is a low-level networking module that provides a mechanism for 
+# processes on different devices to communicate over a network.
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+#s obj
+#comm ipv4
+#s_tream stream data
 
 port = 3000
-connectionString = ('127.1.0.1', port)
+ip = socket.gethostbyname(socket.gethostname())
 
+connectionString =(ip, port)
 s.connect(connectionString)
 
+
+
+
 message = input("Enter sample message to send to server: ")
-s.send(message.encode())  
+s.send(message.encode()) 
+# utf8 encoding 
 
 print(s.recv(1024))
 
