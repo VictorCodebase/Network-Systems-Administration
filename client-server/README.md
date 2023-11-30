@@ -9,5 +9,5 @@ Question: Create a client server network model and simulate a communication wher
 | Daniel Wekesa  | SCT212-0183/2022   |
 | Josiah Ndirangu  | SCT212-0111/2022   |
 | Samuel Gicheha | SCT212-0118/2022    |
-| Ttsumah Derick Richard  | SCT212-0192/2022  |
+| Tsumah Derick Richard  | SCT212-0192/2022  |
 | Mark Victor Kithinji  | SCT212-0105/2022  |
