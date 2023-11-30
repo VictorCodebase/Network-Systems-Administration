@@ -12,7 +12,9 @@ Mark Victor Kithinji - SCT212-0105/2022
 '''
 import socket
 
+
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+
 
 port = 3000
 ip = socket.gethostbyname(socket.gethostname())

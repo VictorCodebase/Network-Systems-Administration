@@ -1,7 +1,7 @@
 
 import socket
 
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)#create socket, family ipv4, type stream
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)#create socket, family ipv4,
 ip = socket.gethostbyname(socket.gethostname())
 allowedIP = ip
 
@@ -15,7 +15,6 @@ print('Server is listening')
 conn, addr = s.accept() 
 
 print('Got connection from', addr)
-print("add", addr[0])
 
 if addr[0] == allowedIP:
     print("address:", addr[0])
